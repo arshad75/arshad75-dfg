@@ -1,0 +1,5 @@
+project_id   = "burner-arssyed"
+region       = "us-central1"
+subnet_cidr  = "10.0.8.0/21"
+pod_cidr     = "192.168.0.0/18"
+service_cidr = "192.168.64.0/18"
