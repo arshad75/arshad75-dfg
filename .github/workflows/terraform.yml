@@ -23,7 +23,7 @@ jobs:
 
       - name: Terraform plan
         run: terraform plan -out=tfplan
-       env:
+        env:
          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
 
       - name: Terraform apply
